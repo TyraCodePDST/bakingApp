@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BakingTime</string>
+
+    <string name="detail_activity">This recipe: </string>
+    <string name="step_activity">Step information</string>
+
+
+    <string name="recipe_information">Recipe information</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>

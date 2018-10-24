@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/unit"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:text="6"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/measurement"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:text="Cup"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ingredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:text="Ingredients info"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/line"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/divider" />
+
+</LinearLayout>
